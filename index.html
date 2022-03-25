@@ -3032,15 +3032,15 @@
 
         console.log("window.location.hostname: " + window.location.hostname);
 
-        if ((!isSchool && window.location.hostname != "friv.com" && window.location.hostname != "www.friv.com" && window.location.hostname != "dev.friv.co.uk" && location.protocol != "file:") || window.location !== window.parent.location) { //not on correct domain, or is in a frame of some kind
+        if ((!isSchool && window.location.hostname != "friv.com" && window.location.hostname != "https://shadowgaming100.github.io/friv.github.io/" && window.location.hostname != "https://shadowgaming100.github.io/friv.github.io/" && location.protocol != "file:") || window.location !== window.parent.location) { //not on correct domain, or is in a frame of some kind
             console.log("must redirect...");
 
             setTimeout(function() {
-                document.write("<center><br><h1><mark>&nbsp;Sorry. There seems to be an error. Please check the domain is: <a href=https://www.friv.com target=_top>friv.com</a>&nbsp;</mark></h1><br><img src=https://whos.amung.us/widget/aaaaaaaaaaaa.png></center>");
+                document.write("<center><br><h1><mark>&nbsp;Sorry. There seems to be an error. Please check the domain is: <a href=https://shadowgaming100.github.io/friv.github.io/ target=_top>https://shadowgaming100.github.io/friv.github.io/</a>&nbsp;</mark></h1><br><img src=https://whos.amung.us/widget/aaaaaaaaaaaa.png></center>");
             }, 3000);
 
             setTimeout(function() {
-                window.location.replace("https://www.friv.com/");
+                window.location.replace("https://shadowgaming100.github.io/friv.github.io/");
             }, 6000);
 
             //window.location.replace("https://www.friv.co.uk/404.html?rd");
